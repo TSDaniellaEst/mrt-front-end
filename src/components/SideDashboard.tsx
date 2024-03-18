@@ -51,7 +51,7 @@ const AdminDashboard = () => {
     },
     {
       name: "Log out",
-      link: "/XXX",
+      link: "/",
       icon: HiOutlineLogin,
       margin: true,
     },

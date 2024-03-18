@@ -8,7 +8,19 @@ const Login = () => {
   const navigate = useNavigate();
   const handleSignInClick = () => {
     if (user === "admin" && password === "admin") {
+      // const response = await fetch 'mrt-be/adminLogin'(
+      //   user: user,
+      //   pass: password
+      // )
+      // const res = await response.json()
+      // if (response.ok){
+      //   navigate
+      // }else{
+      //   window.alert(res.message)
+      // }
       navigate("/admin/home");
+    } else if (user === "" && password === "") {
+      window.alert("Empty Field");
     } else {
       window.alert("Invalid Password or Username user=admin,pass=admin");
     }
