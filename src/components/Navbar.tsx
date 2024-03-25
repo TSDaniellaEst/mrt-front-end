@@ -19,9 +19,9 @@ const Navbar = () => {
   return (
     <div
       className="flex justify between items-center h-24 max-w-[1000px] 
-                            mx-auto px-4 font-bold text-[#fca5a5]"
+                            mx-auto px-4 font-bold text-[#222C55]"
     >
-      <h1 className="w-full text-3xl font-bold text-[#f87171]"> MRT Line 3 </h1>
+      <h1 className="w-full text-3xl font-bold text-[#222C55]"> MRT Line 3 </h1>
       <ul className="hidden md:flex">
         <button onClick={handleHomeClick} className="p-4">
           Home
@@ -33,7 +33,7 @@ const Navbar = () => {
         <li className="flex justify-between">
           <button
             onClick={handleAdminClick}
-            className="border w-40 px-11 py-3 rounded-md bg-[#f87171] hover:bg-[#FF8585] relative flex  text-white"
+            className="border w-40 px-11 py-3 rounded-md bg-[#222C55] hover:bg-[#3C51A5] relative flex  text-white"
           >
             <RiAdminLine size={20} className="mr-1" /> Admin
           </button>
@@ -50,7 +50,7 @@ const Navbar = () => {
             : "fixed left-[-100%]"
         }
       >
-        <h1 className="w-full text-3xl font-bold text-[#f87171] m-4">
+        <h1 className="w-full text-3xl font-bold text-[#222C55] m-4">
           {" "}
           MRT Line 3{" "}
         </h1>

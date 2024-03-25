@@ -31,12 +31,12 @@ const Login = () => {
         <img className="w-full h-full object-cover" src={mrtpic} alt="" />
       </div>
 
-      <div className="bg-[#fca5a5] flex flex-col justify-center">
+      <div className="bg-[#ECEBE6] flex flex-col justify-center">
         <form className="max-w-[400px] w-full mx-auto bg-white p-4">
-          <h2 className="text-3xl font-bold text-[#f87171] text-center py-6">
+          <h2 className="text-3xl font-bold text-[#222C55] text-center py-6">
             Admin
           </h2>
-          <div className="font-bold text-[#f87171] flex flex-col py-2">
+          <div className="font-bold text-[#222C55] flex flex-col py-2">
             <label>Username</label>
             <input
               className="border p-2"
@@ -46,7 +46,7 @@ const Login = () => {
               }}
             />
           </div>
-          <div className=" font-bold text-[#f87171] flex flex-col py-2">
+          <div className=" font-bold text-[#222C55] flex flex-col py-2">
             <label>Password</label>
             <input
               className="border p-2"
@@ -59,7 +59,7 @@ const Login = () => {
 
           <button
             onClick={handleSignInClick}
-            className="border w-full my-5 py-2 bg-[#f87171] hover:bg-[#FF8585] text-white"
+            className="border w-full my-5 py-2 bg-[#222C55] hover:bg-[#3C51A5]  text-white"
           >
             Sign In
           </button>

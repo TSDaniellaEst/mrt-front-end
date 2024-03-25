@@ -8,8 +8,10 @@ const LoadBeep: FC = () => {
         <div style={{ display: "flex", flexDirection: "row" }}>
           <SideDashboard />
           <div className="container bg-white flex flex-col mx-auto rounded-3xl p-10 mt-11 mb-11">
-            <p className="font-bold text-[#222C55] text-3xl">LOAD BEEP CARD</p>
-            <p className="font-bold text-[#222C55]">Tdfddff</p>
+            <p className="font-bold text-[#222C55] text-3xl">
+              Load Beep Card
+            </p>
+            <div className="container bg-[#ECEBE6] flex flex-col mx-auto rounded-3xl p-10 mt-11 mb-11 h-full"></div>
           </div>
         </div>
       </>

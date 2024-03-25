@@ -5,9 +5,9 @@ import { ReactTyped } from "react-typed";
 const Main1 = () => {
   return (
     
-    <div className='text-[#f87171]'> 
+    <div className='bg-[#222C55] text-[#222C55]'> 
     <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='font-bold text-[#f87171] p-2'> 
+        <p className='font-bold text-[#222C55] p-2'> 
             {/*Hi */} 
         </p>
         <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'> 
@@ -26,7 +26,7 @@ const Main1 = () => {
              /> 
         </div>
         
-        <p className='md:text-3xl texl-xl font-bold text-[#f87171]-500'> 
+        <p className='md:text-3xl texl-xl font-bold text-[#222C55]'> 
         Line 3
         </p>
         {/*}

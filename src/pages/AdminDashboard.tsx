@@ -5,10 +5,13 @@ const Nopage: FC = () => {
   return (
     <div className="bg-[#E3E2DC]">
       <>
-        <SideDashboard />
-        <div className="bg-gray-600">
-          <div className="text-center flex flex-col justify-center">
-            <p className="font-bold text-[#f87171] p-2"></p>
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <SideDashboard />
+          <div className="container bg-white flex flex-col mx-auto rounded-3xl p-10 mt-11 mb-11">
+            <p className="font-bold text-[#222C55] text-3xl">
+              Home
+            </p>
+            <div className="container bg-[#ECEBE6] flex flex-col mx-auto rounded-3xl p-10 mt-11 mb-11 h-full"></div>
           </div>
         </div>
       </>
