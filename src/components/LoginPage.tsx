@@ -6,32 +6,24 @@ const Login = () => {
   const [user, setUser] = useState<string>("");
   const [password, setPassword] = useState<string>("");
   const navigate = useNavigate();
+
   const handleSignInClick = () => {
     if (user === "admin" && password === "admin") {
-      // const response = await fetch 'mrt-be/adminLogin'(
-      //   user: user,
-      //   pass: password
-      // )
-      // const res = await response.json()
-      // if (response.ok){
-      //   navigate
-      // }else{
-      //   window.alert(res.message)
-      // }
       navigate("/admin/home");
     } else if (user === "" && password === "") {
       window.alert("Empty Field");
     } else {
-      window.alert("Invalid Password or Username user=admin,pass=admin");
+      window.alert("Invalid Password or Username");
     }
   };
+
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full">
-      <div className="hidden sm:block">
+    <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full overflow-hidden">
+      <div className="hidden sm:block overflow-hidden">
         <img className="w-full h-full object-cover" src={mrtpic} alt="" />
       </div>
 
-      <div className="bg-[#ECEBE6] flex flex-col justify-center">
+      <div className="bg-[#ECEBE6] flex flex-col justify-center overflow-hidden">
         <form className="max-w-[400px] w-full mx-auto bg-white p-4">
           <h2 className="text-3xl font-bold text-[#222C55] text-center py-6">
             Admin
@@ -68,4 +60,5 @@ const Login = () => {
     </div>
   );
 };
+
 export default Login;

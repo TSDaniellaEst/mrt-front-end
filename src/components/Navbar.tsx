@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div
       className="flex justify between items-center h-24 max-w-[1000px] 
-                            mx-auto px-4 font-bold text-[#222C55]"
+                            mx-auto px-4 font-bold bg-[#FFFFFF] text-[#222C55]"
     >
       <h1 className="w-full text-3xl font-bold text-[#222C55]"> MRT Line 3 </h1>
       <ul className="hidden md:flex">
@@ -46,7 +46,7 @@ const Navbar = () => {
       <div
         className={
           !nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#dc2626] ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
       >
